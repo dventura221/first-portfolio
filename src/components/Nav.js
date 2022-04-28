@@ -3,10 +3,10 @@ const Nav = () => {
     <div>
       <h1>Dan Ventura</h1>
       <div className="Links">
-        <h2>Home</h2>
-        <h2>Projects</h2>
-        <h2>About</h2>
-        <h2>Contact</h2>
+        <h4>Home</h4>
+        <h4>Projects</h4>
+        <h4>About</h4>
+        <h4>Contact</h4>
       </div>
     </div>
   )

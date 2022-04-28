@@ -2,6 +2,7 @@
 import '../src/styles/App.css'
 import Nav from './components/Nav'
 import Home from './components/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <main>
         <Home />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
