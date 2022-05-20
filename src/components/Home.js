@@ -1,3 +1,5 @@
+import MyMap from './Map'
+
 const Home = () => {
   return (
     <div>
@@ -10,6 +12,9 @@ const Home = () => {
           background, and speaks up when something needs to be said. I inject
           humor and a silent grace into my environment and work.
         </p>
+      </div>
+      <div className="map">
+        <MyMap />
       </div>
     </div>
   )
