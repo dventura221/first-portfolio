@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapMarker, GMap } from 'react-rainbow-components'
+import { GMap } from 'react-rainbow-components'
 
 const styles = {
   maxWidth: 400,
@@ -18,14 +18,14 @@ const MyMap = () => {
           zoom={10}
           latitude={39.742043}
           longitude={-104.991531}
-          header="Denver, My Home"
+          header="Denver, my home"
         >
-          <MapMarker
+          {/* <MapMarker
             latitude={39.742043}
             longitude={-104.991531}
             label="Denver"
             description=" Denver, Colorado, USA"
-          />
+          /> */}
         </GMap>
       </div>
     </div>
