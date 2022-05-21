@@ -3,7 +3,7 @@ import '../src/styles/App.css'
 import Nav from './components/Nav'
 import Home from './components/Home'
 import Footer from './components/Footer'
-import { Routes, Route } from 'react-router-dom'
+// import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
         <Nav className="App-header" />
       </header>
       <main>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
-        </Routes>
+        </Routes> */}
+        <Home />
       </main>
       <footer>
         <Footer />
