@@ -1,18 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+* {
+  font-family: 'Poppins';
+}
+
 .App {
   text-align: center;
 }
-/* .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+
 .navBar {
   background-image: url('https://i.imgur.com/zYpQFd7.jpg');
   background-position: center bottom;
@@ -25,13 +20,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  
+  /* font-size: calc(10px + 2vmin); */
   text-shadow: 1px 1px 20px black;
-}
-
-.navLink {
-  text-decoration: none;
 }
 
 .navName, .navTitle {
@@ -52,7 +42,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: 500px;
+  margin-top: 250px;
 }
 
 header {
@@ -67,7 +57,7 @@ footer {
   bottom: 0;
   background-color: #282c34;
   width: 100%;
-  height: 7vh;
+  min-height: 8vh;
 }
 
 .iconBox {
@@ -82,7 +72,20 @@ footer {
 
 .createdBy {
   color: white;
+  font-family: 'Poppins';
 }
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -93,8 +96,6 @@ footer {
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-
-
 
 /* .App-link {
   color: #61dafb;
