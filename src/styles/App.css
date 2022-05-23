@@ -22,6 +22,8 @@
   justify-content: space-between;
   /* font-size: calc(10px + 2vmin); */
   text-shadow: 1px 1px 20px black;
+  /* height: 92vh;
+  overflow: auto; */
 }
 
 .navName, .navTitle {
@@ -36,6 +38,17 @@
   text-shadow: 2px 2px 20px  black;
   font-family: 'Poppins';
 }
+
+/* .tabSet {
+  overflow: auto;
+  white-space: nowrap;
+} */
+
+/* .aboutMeAll, .homeAll, .projectsAll, .contactAll {
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+} */
 
 body {
   background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
@@ -73,6 +86,26 @@ footer {
 .createdBy {
   color: white;
   font-family: 'Poppins';
+}
+
+.brandStatement {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projectCard {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.cardContents {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectImage {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 /* .App-header {
