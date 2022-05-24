@@ -54,6 +54,7 @@ body {
   background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   margin-top: 250px;
 }

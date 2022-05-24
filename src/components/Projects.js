@@ -8,6 +8,7 @@ const Projects = () => {
       </div>
       <div className="projectCard">
         <Card title="Cheugy Tic-Tac-Toe" className="cardContents">
+          <h2 className="cardTitle">Cheugy Tic-Tac-Toe</h2>
           <img
             src="https://i.imgur.com/sf18qXYh.png"
             alt="cheugy tic-tac-toe"
@@ -27,6 +28,65 @@ const Projects = () => {
               style={{ textDecoration: 'none' }}
             >
               <Button>Github</Button>
+            </a>
+          </div>
+        </Card>
+      </div>
+      <div className="projectCard">
+        <Card title="Med Pass" className="cardContents">
+          <h2 className="cardTitle">Med Pass</h2>
+          <img
+            src="https://i.imgur.com/6abnPQ2l.png"
+            alt="med pass"
+            className="projectImage"
+          />
+          <div className="buttonContainer">
+            <a
+              href="https://med-admin.surge.sh/"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button>Try it out!</Button>
+            </a>
+            <a
+              href="https://github.com/dventura221/medication-admin"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button>Github</Button>
+            </a>
+          </div>
+        </Card>
+      </div>
+      <div className="projectCard">
+        <Card title="Neighbourly" className="cardContents">
+          <h2 className="cardTitle">Neighbourly</h2>
+          <img
+            src="https://i.imgur.com/jidZg8dl.png"
+            alt="neighbourly"
+            className="projectImage"
+          />
+          <div className="buttonContainer">
+            <a
+              href="https://neighbourhood-front.herokuapp.com/"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button>Try it out!</Button>
+            </a>
+            <a
+              href="https://github.com/dventura221/neighbourhood-front"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button>Github Front End</Button>
+            </a>
+            <a
+              href="https://github.com/pregan23/neighbourhood-back"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <Button>Github Back End</Button>
             </a>
           </div>
         </Card>
