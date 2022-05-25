@@ -3,7 +3,7 @@ import MyMap from './Map'
 const AboutMe = () => {
   return (
     <div className="aboutMeAll">
-      <h1>About Me</h1>
+      {/* <h1>About Me</h1> */}
       <p className="brandStatement">
         My name is Dan. I made a career pivot from nursing to become a software
         engineer. I am excited and motivated for my next steps. I consider

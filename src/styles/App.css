@@ -4,6 +4,11 @@
   font-family: 'Poppins';
 }
 
+a:visited { 
+  text-decoration: none; 
+  color: white
+}
+
 .App {
   text-align: center;
 }
@@ -107,6 +112,10 @@ footer {
 .projectImage {
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+.contactAll {
+  padding-bottom: 10vh;
 }
 
 /* .App-header {

@@ -12,9 +12,6 @@ function App() {
         <Nav className="App-header" />
       </header>
       <main>
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes> */}
         <Home />
       </main>
       <footer>

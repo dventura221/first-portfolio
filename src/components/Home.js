@@ -5,16 +5,23 @@ import Contact from './Contact'
 const Home = () => {
   return (
     <div className="homeAll">
+      <a id="home"></a>
       <h2>Welcome to my portfolio!</h2>
+      <a id="aboutMeSectionLink"></a>
       <div className="aboutMeSection">
+        <h1>About Me</h1>
         <AboutMe />
       </div>
-      <div className="projectsSection">
-        <Projects />
-      </div>
-      <div className="contactSection">
-        <Contact />
-      </div>
+      <a id="projectsSectionLink">
+        <div className="projectsSection">
+          <Projects />
+        </div>
+      </a>
+      <a id="contactSectionLink">
+        <div className="contactSection">
+          <Contact />
+        </div>
+      </a>
     </div>
   )
 }
