@@ -4,26 +4,30 @@ const Nav = () => {
   return (
     <div className="navBar">
       <div className="navLinksGrid">
-        <h5 className="navLink">
-          <a href="#top" style={{ textDecoration: 'none' }}>
+        <h2 className="navLink">
+          <a
+            href="#top"
+            style={{ textDecoration: 'none' }}
+            className="aNavLink"
+          >
             Home
           </a>
-        </h5>
-        <h5 className="navLink">
+        </h2>
+        <h2 className="navLink">
           <a href="#projectsSectionLink" style={{ textDecoration: 'none' }}>
             Projects
           </a>
-        </h5>
-        <h5 className="navLink">
+        </h2>
+        <h2 className="navLink">
           <a href="#aboutMeSectionLink" style={{ textDecoration: 'none' }}>
-            About
+            About Me
           </a>
-        </h5>
-        <h5 className="navLink">
+        </h2>
+        <h2 className="navLink">
           <a href="#contactSectionLink" style={{ textDecoration: 'none' }}>
             Contact
           </a>
-        </h5>
+        </h2>
       </div>
     </div>
   )

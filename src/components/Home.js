@@ -14,11 +14,12 @@ const Home = () => {
           <Projects />
         </div>
       </a>
-      <a id="aboutMeSectionLink"></a>
-      <div className="aboutMeSection">
-        <h1>About Me</h1>
-        <AboutMe />
-      </div>
+      <a id="aboutMeSectionLink">
+        <div className="aboutMeSection">
+          <h1>About Me</h1>
+          <AboutMe />
+        </div>
+      </a>
 
       <a id="contactSectionLink">
         <div className="contactSection">

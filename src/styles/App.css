@@ -4,6 +4,21 @@
   font-family: 'Poppins';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+.aNavLink {
+  text-decoration: none; 
+  color: white
+}
+
 a:visited { 
   text-decoration: none; 
   color: white
@@ -20,7 +35,7 @@ a:visited {
   background-size: cover;
   background-color: #282c34;
   color: white;
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +44,11 @@ a:visited {
   text-shadow: 1px 1px 20px black;
   /* height: 92vh;
   overflow: auto; */
+}
+
+img {
+  max-height: 30vh;
+  max-width: 30vh;
 }
 
 .navName, .navTitle {
