@@ -3,9 +3,57 @@ import { Card, Button } from 'react-rainbow-components'
 const Projects = () => {
   return (
     <div className="projectsAll">
-      <div className="projectsTitle">
-        <h1>Projects</h1>
+      <h1>Projects</h1>
+      <div className="noCardSection">
+        <div className="imgAndSummarySection">
+          <img
+            src="https://i.imgur.com/WInLhpt.png"
+            alt="neighbourly"
+            className="projectImage"
+          />
+          <div className="summarySection">
+            <h2 className="summaryTitle">Neighbourly</h2>
+            <p className="summaryTech">
+              PostgreSQL + Express + React + Node.js
+            </p>
+            <p className="summary">
+              Neighbourly was a collaboration of 3 software engineers in a 7-day
+              sprint, using PERN stack to create a neighborhood social network.
+            </p>
+
+            <div className="buttonContainer">
+              <a
+                href="https://neighbourhood-front.herokuapp.com/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button>
+                  <p className="buttonText">Try it out!</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/dventura221/neighbourhood-front"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button>
+                  <p className="buttonText">GitHub Front End</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/pregan23/neighbourhood-back"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button>
+                  <p className="buttonText">GitHub Back End</p>
+                </Button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+      <div className="projectsTitle"></div>
       <div className="projectCard">
         <Card className="cardContents">
           <h2 className="cardTitle">Neighbourly</h2>

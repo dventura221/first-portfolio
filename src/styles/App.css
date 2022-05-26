@@ -28,6 +28,15 @@ a:visited {
   text-align: center;
 }
 
+body {
+  background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-top: 15vh;
+}
+
 .navBar {
   background-image: url('https://i.imgur.com/zYpQFd7.jpg');
   background-position: center bottom;
@@ -51,37 +60,12 @@ img {
   max-width: 30vh;
 }
 
-.navName, .navTitle {
-  font-family: 'Poppins';
-}
-
 .navLinksGrid {
   display: flex;
   justify-content: space-evenly;
 
   width: 100vw;
   text-shadow: 2px 2px 20px  black;
-  font-family: 'Poppins';
-}
-
-/* .tabSet {
-  overflow: auto;
-  white-space: nowrap;
-} */
-
-/* .aboutMeAll, .homeAll, .projectsAll, .contactAll {
-  height: 80vh;
-  width: 100vw;
-  align-items: center;
-} */
-
-body {
-  background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  margin-top: 15vh;
 }
 
 header {
@@ -94,7 +78,8 @@ header {
 footer {
   position: fixed;
   bottom: 0;
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: #013220;
   width: 100%;
   min-height: 8vh;
 }
@@ -111,7 +96,6 @@ footer {
 
 .createdBy {
   color: white;
-  font-family: 'Poppins';
 }
 
 .brandStatement {
@@ -129,9 +113,47 @@ footer {
   flex-direction: column;
 }
 
+.imgAndSummarySection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  margin: 5vh;
+}
+
 .projectImage {
-  margin-left: 1vw;
-  margin-right: 1vw;
+  /* margin-left: 1vw;
+  margin-right: 1vw; */
+  margin: 2vh;
+}
+
+.summarySection {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 1vh; */
+  max-width: 50vw;
+}
+
+.summaryTitle {
+  font-size: 5vh;
+  font-style: bold; 
+  margin-top: 1vh;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 20px white;
+}
+
+.summaryTech {
+  font-size: 2vh;
+  font-style: italic;
+  color: #013220;
+  font-weight: bolder;
+  margin-bottom: 0;
+  
+}
+
+.buttonText {
+  margin: 0;
+  color: #013220;
 }
 
 .contactAll {
