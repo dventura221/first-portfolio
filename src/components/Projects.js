@@ -7,7 +7,7 @@ const Projects = () => {
         <h1>Projects</h1>
       </div>
       <div className="projectCard">
-        <Card title="Cheugy Tic-Tac-Toe" className="cardContents">
+        <Card className="cardContents">
           <h2 className="cardTitle">Cheugy Tic-Tac-Toe</h2>
           <img
             src="https://i.imgur.com/sf18qXYh.png"
@@ -33,7 +33,7 @@ const Projects = () => {
         </Card>
       </div>
       <div className="projectCard">
-        <Card title="Med Pass" className="cardContents">
+        <Card className="cardContents">
           <h2 className="cardTitle">Med Pass</h2>
           <img
             src="https://i.imgur.com/6abnPQ2l.png"
@@ -59,10 +59,10 @@ const Projects = () => {
         </Card>
       </div>
       <div className="projectCard">
-        <Card title="Neighbourly" className="cardContents">
+        <Card className="cardContents">
           <h2 className="cardTitle">Neighbourly</h2>
           <img
-            src="https://i.imgur.com/jidZg8dl.png"
+            src="https://i.imgur.com/jidZg8dh.png"
             alt="neighbourly"
             className="projectImage"
           />

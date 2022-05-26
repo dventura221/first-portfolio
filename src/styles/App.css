@@ -61,7 +61,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  margin-top: 250px;
+  margin-top: 15vh;
 }
 
 header {
@@ -100,8 +100,8 @@ footer {
 }
 
 .projectCard {
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .cardContents {

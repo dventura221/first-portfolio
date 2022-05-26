@@ -8,20 +8,24 @@ const Footer = () => {
       </div>
       <div className="iconBox">
         <div className="indivIcon">
-          <box-icon
-            name="linkedin-square"
-            type="logo"
-            color="#ffffff"
-            animation="tada-hover"
-          ></box-icon>
+          <a href="https://www.linkedin.com/in/dan-ventura221/" target="_blank">
+            <box-icon
+              name="linkedin-square"
+              type="logo"
+              color="#ffffff"
+              animation="tada-hover"
+            ></box-icon>
+          </a>
         </div>
         <div className="indivIcon">
-          <box-icon
-            name="github"
-            type="logo"
-            color="#ffffff"
-            animation="tada-hover"
-          ></box-icon>
+          <a href="https://github.com/dventura221" target="_blank">
+            <box-icon
+              name="github"
+              type="logo"
+              color="#ffffff"
+              animation="tada-hover"
+            ></box-icon>
+          </a>
         </div>
         <div className="indivIcon">
           <box-icon
@@ -32,11 +36,17 @@ const Footer = () => {
           ></box-icon>
         </div>
         <div className="indivIcon">
-          <box-icon
-            name="file"
-            color="#ffffff"
-            animation="tada-hover"
-          ></box-icon>
+          <a
+            href="https://docs.google.com/document/d/1j2CaZwjPwz8Uf4d4RaOlVg_mvsw4ejXucpZelF6ZBCw/edit?usp=sharing"
+            target="_blank"
+          >
+            <box-icon
+              name="file"
+              color="#ffffff"
+              animation="tada-hover"
+              title="Resume"
+            ></box-icon>
+          </a>
         </div>
       </div>
     </div>
