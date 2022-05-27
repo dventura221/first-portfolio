@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <p className="createdBy">Created by Dan Ventura</p>
+        <p className="createdBy">Created by Dan Ventura &nbsp; © 2022</p>
       </div>
       <div className="iconBox">
         <div className="indivIcon">
