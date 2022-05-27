@@ -14,17 +14,29 @@ const Nav = () => {
           </a>
         </h2>
         <h2 className="navLink">
-          <a href="#projectsSectionLink" style={{ textDecoration: 'none' }}>
+          <a
+            href="#projectsSectionLink"
+            style={{ textDecoration: 'none' }}
+            className="aNavLink"
+          >
             Projects
           </a>
         </h2>
         <h2 className="navLink">
-          <a href="#aboutMeSectionLink" style={{ textDecoration: 'none' }}>
+          <a
+            href="#aboutMeSectionLink"
+            style={{ textDecoration: 'none' }}
+            className="aNavLink"
+          >
             About Me
           </a>
         </h2>
         <h2 className="navLink">
-          <a href="#contactSectionLink" style={{ textDecoration: 'none' }}>
+          <a
+            href="#contactSectionLink"
+            style={{ textDecoration: 'none' }}
+            className="aNavLink"
+          >
             Contact
           </a>
         </h2>

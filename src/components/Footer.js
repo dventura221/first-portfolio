@@ -28,14 +28,6 @@ const Footer = () => {
           </a>
         </div>
         <div className="indivIcon">
-          <box-icon
-            name="contact"
-            type="solid"
-            color="#ffffff"
-            animation="tada-hover"
-          ></box-icon>
-        </div>
-        <div className="indivIcon">
           <a
             href="https://docs.google.com/document/d/1j2CaZwjPwz8Uf4d4RaOlVg_mvsw4ejXucpZelF6ZBCw/edit?usp=sharing"
             target="_blank"

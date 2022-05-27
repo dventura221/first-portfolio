@@ -29,7 +29,7 @@ a:visited {
 }
 
 body {
-  background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
+  background-color: #f5f5f5;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -84,9 +84,68 @@ footer {
   min-height: 8vh;
 }
 
+.homeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 20vh;
+}
+
+.technologies {
+  background-color: #013220;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+
+.techContainer {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.techName, .techTitle {
+  color: white;
+}
+
+.techName {
+  font-size: larger;
+}
+
+.indivTech {
+  display: flex;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.navName {
+  font-size: 7vh;
+  font-style: bold; 
+}
+
+.navTitle {
+  font-style: italic;
+  color: #013220;
+  font-weight: bolder;
+}
+
 .iconBox {
   display: flex;
   justify-content: center;
+}
+
+.iconBoxContact {
+  display: flex;
+  justify-content: center;
+  column-gap: 2vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .indivIcon {
@@ -94,23 +153,63 @@ footer {
   margin-right: 1vh;
 }
 
+.contactText {
+  color: #013220;;
+  font-size: larger;
+  text-decoration: none; 
+}
+
 .createdBy {
   color: white;
 }
 
+.aboutMeAll {
+  background-color: #013220;
+  margin-bottom: 25vh;
+  padding-bottom: 15vh;
+}
+
+.aboutTitle {
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  padding-top: 3vh;
+}
+
 .brandStatement {
-  margin-left: 10%;
-  margin-right: 10%;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: larger;
+  text-shadow: 1px 1px 10px black;
 }
 
-.projectCard {
-  margin-left: 10vw;
-  margin-right: 10vw;
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.cardContents {
+.mapTitle, .dogTitle, .petName {
+  color: white;
+}
+
+.dogTitle, .petName {
+  font-style: oblique;
+}
+
+.korbenCont, .rubyCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.noCardSection {
   display: flex;
   flex-direction: column;
+  row-gap: 50vh;
+  margin-top: 25vh;
+  margin-bottom: 50vh;
 }
 
 .imgAndSummarySection {
@@ -122,15 +221,12 @@ footer {
 }
 
 .projectImage {
-  /* margin-left: 1vw;
-  margin-right: 1vw; */
   margin: 2vh;
 }
 
 .summarySection {
   display: flex;
   flex-direction: column;
-  /* row-gap: 1vh; */
   max-width: 50vw;
 }
 
@@ -161,7 +257,21 @@ footer {
 }
 
 .contactAll {
-  padding-bottom: 10vh;
+  padding-bottom: 67vh;
+}
+
+.emailContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 3vw;
+  /* margin-left: 30vw;
+  margin-right: 30vw; */
+}
+
+.email, .phone {
+  font-weight: lighter;
+  text-decoration: none; 
+  color: #013220;
 }
 
 /* .App-header {
@@ -175,26 +285,3 @@ footer {
   color: white;
 } */
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

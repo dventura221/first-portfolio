@@ -3,7 +3,7 @@ import { Card, Button } from 'react-rainbow-components'
 const Projects = () => {
   return (
     <div className="projectsAll">
-      <h1 className="projectsTitle">Projects</h1>
+      <h1 className="projectsTitle">PROJECTS</h1>
       <div className="noCardSection">
         <div className="imgAndSummarySection">
           <img
@@ -52,76 +52,77 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="imgAndSummarySection">
-        <div className="summarySection">
-          <h2 className="summaryTitle">Med Pass</h2>
-          <p className="summaryTech">Javascript + HTML + CSS</p>
-          <p className="summary">
-            Individual project completed in a 4-day sprint, using only vanilla
-            Javascript to create a simulation game about medication
-            administration for medical professionals.
-          </p>
-          <div className="buttonContainer">
-            <a
-              href="https://med-admin.surge.sh/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <Button className="button">
-                <p className="buttonText">Try it out!</p>
-              </Button>
-            </a>
-            <a
-              href="https://github.com/dventura221/medication-admin"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <Button>
-                <p className="buttonText">GitHub</p>
-              </Button>
-            </a>
-          </div>
-        </div>
-        <img
-          src="https://i.imgur.com/isuV1VA.png"
-          alt="med pass"
-          className="projectImage"
-        />
-      </div>
-      <div className="imgAndSummarySection">
-        <img
-          src="https://i.imgur.com/whP4E87.png"
-          alt="cheugy tic-tac-toe"
-          className="projectImage"
-        />
-        <div className="summarySection">
-          <h2 className="summaryTitle">Cheugy Tic-Tac-Toe</h2>
-          <p className="summaryTech">Javascript + HTML + CSS</p>
-          <p className="summary">
-            First ever project in Javascipt during software engineering
-            immersive. Included to demonstrate progression.
-          </p>
 
-          <div className="buttonContainer">
-            <a
-              href="http://cheugy-tictactoe.surge.sh"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <Button className="button">
-                <p className="buttonText">Try it out!</p>
-              </Button>
-            </a>
-            <a
-              href="https://github.com/dventura221/u1_hw_tic_tac_toe"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <Button className="button">
-                <p className="buttonText">GitHub</p>
-              </Button>
-            </a>
+        <div className="imgAndSummarySection">
+          <div className="summarySection">
+            <h2 className="summaryTitle">Med Pass</h2>
+            <p className="summaryTech">Javascript + HTML + CSS</p>
+            <p className="summary">
+              Individual project completed in a 4-day sprint, using only vanilla
+              Javascript to create a simulation game about medication
+              administration for medical professionals.
+            </p>
+            <div className="buttonContainer">
+              <a
+                href="https://med-admin.surge.sh/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">Try it out!</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/dventura221/medication-admin"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button>
+                  <p className="buttonText">GitHub</p>
+                </Button>
+              </a>
+            </div>
+          </div>
+          <img
+            src="https://i.imgur.com/isuV1VA.png"
+            alt="med pass"
+            className="projectImage"
+          />
+        </div>
+        <div className="imgAndSummarySection">
+          <img
+            src="https://i.imgur.com/whP4E87.png"
+            alt="cheugy tic-tac-toe"
+            className="projectImage"
+          />
+          <div className="summarySection">
+            <h2 className="summaryTitle">Cheugy Tic-Tac-Toe</h2>
+            <p className="summaryTech">Javascript + HTML + CSS</p>
+            <p className="summary">
+              First ever project in Javascipt during software engineering
+              immersive. Included to demonstrate progression.
+            </p>
+
+            <div className="buttonContainer">
+              <a
+                href="http://cheugy-tictactoe.surge.sh"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">Try it out!</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/dventura221/u1_hw_tic_tac_toe"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">GitHub</p>
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

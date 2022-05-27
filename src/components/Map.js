@@ -13,20 +13,13 @@ const MyMap = () => {
         className="rainbow-p-vertical_x-large rainbow-p-horizontal_small"
         style={styles}
       >
+        <h2 className="mapTitle">Home is Denver, CO</h2>
         <GMap
           apiKey={process.env.REACT_APP_API_KEY}
           zoom={10}
           latitude={39.742043}
           longitude={-104.991531}
-          header="Denver, my home"
-        >
-          {/* <MapMarker
-            latitude={39.742043}
-            longitude={-104.991531}
-            label="Denver"
-            description=" Denver, Colorado, USA"
-          /> */}
-        </GMap>
+        ></GMap>
       </div>
     </div>
   )
