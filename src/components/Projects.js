@@ -53,7 +53,52 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
+        <div className="imgAndSummarySection">
+          <div className="summarySection">
+            <h2 className="summaryTitle">PressR</h2>
+            <p className="summaryTech">
+              Django + Python + React + React Rainbow + Node.js
+            </p>
+            <p className="summary">
+              Capstone project to create a blood pressure monitoring app with
+              graphing feature.
+            </p>
+            <div className="buttonContainer">
+              <a
+                href="javascript:void(0)"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">Coming Soon!</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/dventura221/pressr-health"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">GitHub Front End</p>
+                </Button>
+              </a>
+              <a
+                href="https://github.com/dventura221/pressr-health-backend"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <Button className="button">
+                  <p className="buttonText">GitHub Back End</p>
+                </Button>
+              </a>
+            </div>
+          </div>
+          <img
+            src="https://i.imgur.com/C3nQrpo.png"
+            alt="med pass"
+            className="projectImage"
+          />
+        </div>
         <div className="imgAndSummarySection">
           <div className="summarySection">
             <h2 className="summaryTitle">Med Pass</h2>
