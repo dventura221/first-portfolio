@@ -11,10 +11,15 @@ const Home = () => {
       <div className="homeContainer">
         <div className="homeText">
           <h1 className="navName">Dan Ventura</h1>
-          <h2 className="navTitle">Full Stack Software Engineer | RN</h2>
+          <h2 className="navTitle">Full Stack Software Engineer</h2>
         </div>
         <img src="https://i.imgur.com/R5djuAo.png" alt="portrait" />
       </div>
+      <a id="aboutMeSectionLink">
+        <div className="aboutMeSection">
+          <AboutMe />
+        </div>
+      </a>
       <div className="technologies">
         <div className="techTitle">
           <h1>TECHNOLOGIES</h1>
@@ -83,13 +88,11 @@ const Home = () => {
           <Projects />
         </div>
       </a>
-      <a id="aboutMeSectionLink">
+      {/* <a id="aboutMeSectionLink">
         <div className="aboutMeSection">
-          {/* <h1>ABOUT ME</h1> */}
           <AboutMe />
         </div>
-      </a>
-
+      </a> */}
       <a id="contactSectionLink">
         <div className="contactSection">
           <Contact />

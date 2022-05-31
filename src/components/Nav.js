@@ -15,15 +15,6 @@ const Nav = () => {
         </h2>
         <h2 className="navLink">
           <a
-            href="#projectsSectionLink"
-            style={{ textDecoration: 'none' }}
-            className="aNavLink"
-          >
-            Projects
-          </a>
-        </h2>
-        <h2 className="navLink">
-          <a
             href="#aboutMeSectionLink"
             style={{ textDecoration: 'none' }}
             className="aNavLink"
@@ -31,6 +22,16 @@ const Nav = () => {
             About Me
           </a>
         </h2>
+        <h2 className="navLink">
+          <a
+            href="#projectsSectionLink"
+            style={{ textDecoration: 'none' }}
+            className="aNavLink"
+          >
+            Projects
+          </a>
+        </h2>
+
         <h2 className="navLink">
           <a
             href="#contactSectionLink"

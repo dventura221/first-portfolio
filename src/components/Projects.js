@@ -19,7 +19,8 @@ const Projects = () => {
             <p className="summary">
               Collaboration of 3 software engineers in a 7-day sprint, using
               PERN stack to create a neighborhood social network. Primary role
-              was building the React front end.
+              was building the React front end. TRIAL ACCOUNT | username:
+              tester, password: 1234
             </p>
             <div className="buttonContainer">
               <a
